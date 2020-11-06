@@ -310,6 +310,12 @@ pre {
   }
 }
 
+@media(min-width: 768px) and (max-width:920px) {
+  .showcase-form {
+    width: 350px;
+  }
+}
+
 /* TABLETS AND UNDER */
 @media(max-width: 768px) {
   .grid, 
@@ -366,6 +372,9 @@ pre {
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+  }
+  .showcase-form {
+    width: 300px;
   }
 }
 
