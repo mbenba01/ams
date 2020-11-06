@@ -33,12 +33,33 @@
   <section class="about-head bg-primary py-3">
     <div class="container grid">
       <div>
-        <h1 class="xl">About Us</h1>
+        <h1 class="xl">Contact Us</h1>
         <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nostrum veritatis tempore harum
           atque molestiae id a ipsum esse! Dignissimos modi perferendis quidem quae dolore maxime.</p>
       </div>
       <img src="images/server.png" alt="">
     </div>
+  </section>
+  <section class="about-sub-head py-3 bg-light">
+    <div class="main-contact-form">
+      <h2>Contact Form</h2>
+    <form name="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact-form">
+      <p class="hidden">
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </p>
+      <div class="form-control">
+        <input type="text" name="name" placeholder="Name" required>
+      </div>
+      <div class="form-control">
+        <input type="text" name="company" placeholder="Company Name" required>
+      </div>
+      <div class="form-control">
+        <input type="email" name="email" placeholder="Email" required>
+      </div>
+      <input type="submit" value="Send" class="btn btn-primary">
+    </form>
+  </div>
   </section>
 
   <!-- FOOTER -->
